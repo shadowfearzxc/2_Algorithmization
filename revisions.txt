@@ -2,7 +2,7 @@
 > 2_Algorithmization
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
---13.07.2022 6:21 PM  (version v1.0.0) --
+--15.07.2022 4:59 PM  (version v1.0.0) --
 
     [+] Added public static void allTasks()
 	    separate func that stores the execute all tasks
