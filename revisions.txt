@@ -2,7 +2,19 @@
 > 2_Algorithmization
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
---15.07.2022 4:59 PM  (version v1.0.0) --
+
+--05.10.2022 8:47 AM (version v1.0.4 pre alpha)
+    [*] Fixed 13 warnings
+    [*] code reduction
+        from : 967
+        to   : 726
+    [-] Removed task7()
+    [-] Removed task8()
+    [-] Removed task9()
+    [-] Removed conditions from all tasks. All conditions are attached in the file
+               > Practice (tasks).pdf
+
+--15.07.2022 4:59 PM  (version v1.0.0 pre alpha) --
 
     [+] Added public static void allTasks()
 	    separate func that stores the execute all tasks
