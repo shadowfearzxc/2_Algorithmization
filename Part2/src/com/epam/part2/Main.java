@@ -8,10 +8,10 @@ import java.util.Scanner;
 // unit2 Introduction to Java EPAM
 // 2_Algorithmization
 // Part 1 - arrays[] (task 1 - 10)
-// Part 2 - Tasks. Arrays of arrays (task 11 - )
-// Part 3 -
+// Part 2 - Tasks. Arrays of arrays (task 11 - 26)
+// Part 3 - Декомпозиция ( task 35 - )
 // starting coding 15.07.2022 (4:59 PM)
-// Ending coding 00.07.2022 (0:00 )
+// Ending coding 00.10.2022 (0:00 )
 
 public class Main {
     public static void main(String[] args) {
@@ -19,8 +19,8 @@ public class Main {
     }
 
     public static void allTasks() {
-        task01();
-        task02();
+        //task01();
+        /*task02();
         task03();
         task04();
         task05();
@@ -43,7 +43,9 @@ public class Main {
         task22();
         task23();
         task24();
-        task25();
+        task25(); */
+        //task35();
+        task36();
     }
 
         private static void task01 () {
@@ -682,8 +684,6 @@ public class Main {
                     System.out.printf("%3d ", matrix[i][j]);
                 }
             }
-            //autoFill25(int n,int m);
-            //int[][] matrix = new int[n][m];
             System.out.println();
             int max = Integer.MIN_VALUE;
             for (int[] array : matrix) {
@@ -708,26 +708,22 @@ public class Main {
             }
         }
 
-        private static void task26 () {
-            System.out.println("Магическим квадратом порядка n называется квадратная матрица размера nxn, составленная из чисел 1, 2, 3,\n" +
-                    "...,\n" +
-                    "2\n" +
-                    "n\n" +
-                    "так, что суммы по каждому столбцу, каждой строке и каждой из двух больших диагоналей равны между\n" +
-                    "собой. Построить такой квадрат. Пример магического квадрата порядка 3:");
-            int[][] square;
-            int n;
+        private static void task35 () {
+            System.out.println("\nЗАДАЧА 35 : ");
             Scanner scanner = new Scanner(System.in);
-            System.out.print("создание магического куба : ");
-            n = scanner.nextInt();
-            while (n < 3) {
-
-            }
+            System.out.print("Введите A : "); int a = scanner.nextInt();
+            System.out.print("Введите B : "); int b = scanner.nextInt();
+            System.out.print("НОД равен : ");
+            final int x = b == 0 ? a : a % b;
+            System.out.println(x);
+            System.out.print("НОК равен : ");
+            System.out.println((a * b) / (x));
 
 
         }
 
-        private static void task27 () {
+        private static void task36() {
+
 
         }
     }
