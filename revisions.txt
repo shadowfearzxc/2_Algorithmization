@@ -2,6 +2,9 @@
 > 2_Algorithmization
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
+--12.10.2022 10:34 PM (version v1.0.6 pre alpha)
+	[+] Added task35()
+	[-] Removed task26()
 
 --05.10.2022 8:47 AM (version v1.0.4 pre alpha)
     [*] Fixed 13 warnings
